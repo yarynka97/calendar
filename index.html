@@ -1,0 +1,30 @@
+﻿<!DOCKTYPE HTML>
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Calendar</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	
+	<script type="text/javascript" src="script.js"></script>
+</head>
+<body  onload="calendar.setValues()">
+	<div class="container">
+		<div class="header">
+			<a class="controls" onclick="calendar.previousMonth()"><</a>
+			<h2 id="month">June 2017</h2>
+			<h2 class="controls" onclick="calendar.nextMonth()">></h2>
+		</div>
+		<div class="days-name">
+			<p class="day">Mon</p>
+			<p class="day">Tue</p>
+			<p class="day">Wed</p>
+			<p class="day">Thur</p>
+			<p class="day">Fri</p>
+			<p class="day">San</p>
+			<p class="day weekend">Sun</p>
+		</div>
+		<div id="numbers-field"></div>
+	</div>
+</body>
+</html>

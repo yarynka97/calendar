@@ -1,0 +1,85 @@
+﻿.container{
+	width: 45%;
+	margin: 12vh auto;
+}
+
+.header{
+	width: 99.5%;
+	height: 7vh;
+	color: snow;
+	background-color: blue;
+	margin-top: 0
+}
+
+#month{
+	display: inline-block;
+	font-size: 2rem;
+	width:86%;
+	text-align: center;
+	margin-top: 0.4%
+}
+
+.controls{
+	display: inline-block;
+	font-size: 2rem;
+	margin-left: 2%;
+	margin-top: 0;
+	font-weight: 1rem
+}
+
+.controls:hover{
+	color: darkgrey;
+	cursor:default
+}
+
+#numbers-field{
+	height: 82%;
+	width: 100%
+}
+
+.days-name{
+	height: 4vh;
+	width: 100%;
+}
+
+.days-name .day{
+	height: 99%;
+	font-size: 1.3rem
+}
+
+.days-name .day:hover{
+	background-color: white
+}
+
+.day{
+	display: inline-block;
+	width: 13.85%;
+	height: 10vh;
+	text-align: center;
+	font-size: 3rem;
+	color: grey;
+	border: 1px solid grey;
+	float: left;
+	margin: 0;
+}
+
+.day:hover{
+	background-color: lightblue;
+}
+
+.weekend{
+	color: red;
+}
+
+.another-month{
+	color: lightgrey;
+}
+
+.chosen-day{
+	background-color: blue;
+	color: snow;
+}
+
+.today{
+	box-shadow: 0 0 7px blue inset;
+}
